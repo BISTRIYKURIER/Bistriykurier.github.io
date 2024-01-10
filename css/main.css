@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Philosopher&family=Poppins:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#header{
+    background-color: #1B2934;
+    width: 1440px;
+    height: 80px;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    border-radius: 15px;
+}
+.header-line {
+    margin: 0 70px;
+    display: flex;
+    align-items: center;
+}
+image1bl {
+    padding-top: 17px;
+}
+.buttons {
+    margin-left: 70px;
+}
+.buttons button {
+    width: 238px;
+    height: 46px;
+    margin-top: 17px;
+}
+#btn1, #btn2 {
+    font-size: 30px;
+    background-color: #1B2934;
+    color: #fff;
+    margin-right: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#btn3 {
+    background-color: #1B2934;
+    color: #2BA9E3;
+    border: 1px solid #2BA9E3;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.buttons a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.first-content {
+    position: relative;
+    margin-top: 15px;
+}
+image2bl {
+    position: absolute;
+    margin-left: 640px;
+    z-index: 0;
+}
+.text-block {
+    margin-left: 70px;
+    z-index: 2;
+}
+#anim1 {
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-size: 57px;
+    width: 640px;
+}
+#anim2 {
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-size: 40px;
+    width: 550px;
+}
+.cost {
+    margin-top: 50px;
+    width: 640px;
+    height: 325px;
+    background-color: #c7d0d0;
+    opacity: .99;
+    border-radius: 65px;
+    padding-left: 35px;
+}
+.inpt1 {
+    margin-top: 20px;
+    width: 570px;
+    height: 55px;
+    border-radius: 20px;
+    color: black;
+    margin-left: 13px;
+    font-size: 24px;
+}
+.cost input[type=text]{
+    padding-left: 24px;
+}
+.btn1 {
+    width: 568px;
+    height: 70px;
+    background-color: #30797d;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 22px;
+    cursor: pointer;
+}
+#input1 {
+    margin-top: 40px;
+}
+.main{
+    background-color: #1B2934;
+    width: 1440px;
+    height: 4800px;
+    position: relative;
+    margin-top: 40px;
+    padding-top: 80px;
+    border-radius: 40px;
+}
+.otstup{
+    margin: 0 70px;
+}
+.txt2{
+    background-image: url(img/backgroundforbutton.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1300px;
+    height: 286px;
+    position: absolute;
+}
+.txt2 h2 {
+    padding-top: 40px;
+    padding-left: 45px;
+    font-size: 40px;
+    width: 680px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    float:left;
+}
+.txt2 p {
+    padding-top: 15px;
+    padding-left: 45px;
+    font-size: 30px;
+    width: 680px;
+    color: rgb(255, 255, 255);
+    font-weight: medium;
+    float:left;
+}
+
+.btn2{
+    width: 380px;
+    height: 130px;
+    background-color: #fff;
+    margin-left: 850px;
+    border-radius: 70px;
+    position: relative;
+    margin-top: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#zag3{
+    margin-top: 130px;
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.btn3{
+    width: 245px;
+    height: 300px;
+    background-image: url(img/firstnumber.png);
+    margin-top: 70px;
+    margin-right: 100px ;
+    border-radius: 40px;
+}
+.btn4{
+    width: 245px;
+    height: 300px;
+    background-image: url(img/secondnumber.png);
+    margin-top: 70px;
+    margin-right: 100px ;
+    border-radius: 40px;
+}
+.btn5{
+    width: 245px;
+    height: 300px;
+    background-image: url(img/thirdnumber.png);
+    margin-top: 70px;
+    margin-right: 100px ;
+    border-radius: 40px;
+}
+.btn6{
+    width: 245px;
+    height: 300px;
+    background-image: url(img/fourthnumber.png);
+    margin-top: 70px;
+    border-radius: 40px;
+}
+.btn7{
+    width: 245px;
+    height: 300px;
+    background-image: url(img/fifthnumber.png);
+    margin-top: 70px;
+    margin-right: 100px ;
+    border-radius: 40px;
+}
+.btn8{
+    width: 245px;
+    height: 300px;
+    background-image: url(img/sixthnumber.png);
+    margin-top: 70px;
+    margin-right: 100px ;
+    border-radius: 40px;
+}
+.btn9{
+    width: 245px;
+    height: 300px;
+    background-image: url(img/seventhnumber.png);
+    margin-top: 70px;
+    margin-right: 100px ;
+    border-radius: 40px;
+}
+.btn10{
+    width: 245px;
+    height: 300px;
+    background-image: url(img/eighthnumber.png);
+    margin-top: 70px;
+    border-radius: 40px;
+}
+#zag4{
+    margin-top: 70px;
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.zayavka{
+    background-color: #fff;
+    width: 1300px;
+    height: 820px;
+    border-radius: 60px;
+}
+.inpt2 {
+    margin-top: 20px;
+    width: 800px;
+    height: 55px;
+    border-radius: 10px;
+    color: black;
+    margin-left: 250px;
+    font-size: 24px;
+    background-color: rgb(213, 212, 212);
+}
+.zayavka input[type=text]{
+    padding-left: 24px;
+    color: #000000;
+}
+
+.zag5{
+    margin-top: 80px;
+    padding-top: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.txt4{
+    padding-top: 20px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: medium;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.btn11{
+    width: 700px;
+    height: 90px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.api{
+    background-image: url(img/apiblock.png);
+    width: 800px;
+    height: 400px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.apitxt{
+    margin-top: 80px;
+    padding-top: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.apip{
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 37px;
+}
+.btn12{
+    width: 380px;
+    height: 130px;
+    background-color: #fff;
+    margin-left: 850px;
+    border-radius: 70px;
+    position: relative;
+    margin-top: 175px;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.txt5{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1300px;
+    height: 286px;
+    position: absolute;
+    border-radius: 90px;
+    margin-top: 100px;
+}
+.zag6{
+    padding-top: 60px;
+    padding-left: 65px;
+    font-size: 40px;
+    width: 680px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    float:left;
+}
+.txt6{
+    padding-top: 25px;
+    padding-left: 65px;
+    font-size: 28px;
+    width: 680px;
+    color: rgb(255, 255, 255);
+    font-weight: medium;
+    float:left;
+}
+.oplata{
+    background-color: #2BA9E3;
+    width: 1300px;
+    height: 600px;
+    border-radius: 60px;
+    margin-top: 180px;
+}
+.zag7{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+.txt7{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+.cart {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+.cart h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.cart1 h2 {
+        margin-left: 35px;
+    }
+
+.cart2 h2 {
+        margin-left: 195px;
+    }
+.cart3 h2 {
+        margin-left: 175px;
+    }
+.firstph{
+    background-image:  url(img/image\ 10.png);
+    width: 250px;
+    height: 250px;
+}
+.secondph{
+    background-image:  url(img/image\ 11.png);
+    width: 250px;
+    height: 250px;
+    margin-left: 125px;
+}
+.thirdph{
+    background-image:  url(img/image\ 12.png);
+    width: 250px;
+    height: 250px;
+    margin-left: 125px;
+}
+
+.txt8{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1300px;
+    height: 286px;
+    position: absolute;
+    border-radius: 90px;
+    margin-top: 180px;
+}
+.btn13{
+    width: 380px;
+    height: 130px;
+    background-color: #fff;
+    margin-left: 850px;
+    border-radius: 70px;
+    position: relative;
+    margin-top: 255px;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.end{
+    margin-top: 480px;
+    background-color: #ffffff;
+    height: 225px;
+}
+.endtxt{
+    text-align: center;
+    font-size: 85px;
+    font-weight: 900;
+    color:#2BA9E3;
+    padding-top: 20px;
+    font-family: 'Inter';
+}
+#btn1:hover {
+    background-color:#2BA9E3;
+    transition: 0.7s;
+}
+#btn2:hover {
+    background-color:#2BA9E3;
+    transition: 0.7s;
+}
+#btn3:hover {
+    background-color:#ffffff;
+    transition: 0.5s;
+}
+.btn1:hover {
+    background-color:#000000;
+    transition: 0.5s;
+}
+.btn2:hover {
+    background-color:#2BA9E3;
+    transition: 0.5s;
+}
+.btn11:hover {
+    background-color:rgb(213, 212, 212);
+    color: #000;
+    transition: 0.5s;
+}
+.btn12:hover {
+    background-color:rgb(30, 30, 30);
+    color: #ffffff;
+    transition: 0.5s;
+}
+.btn13:hover {
+    background-color:rgb(30, 30, 30);
+    color: #ffffff;
+    transition: 0.5s;
+}
+.number1{
+    font-size: 35px;
+    margin-left: 185px;
+}
+.number2{
+    font-size: 35px;
+    margin-left: 400px;
+}
+.numbers{
+    display: flex;
+    margin-top: 480px;
+    padding-top: 30px;
+}
+.btn12 a{
+    text-decoration: none;
+    color: #000000;
+}
+.btn13 a{
+    text-decoration: none;
+    color: #6b8381;
+}
+.btn2 a {
+    text-decoration: none;
+    color: #000000;
+}

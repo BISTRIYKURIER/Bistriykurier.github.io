@@ -1,0 +1,18 @@
+.anim.up_text {
+    transform: translateY(+20%);
+    transition: all 2s;
+    opacity: 0;
+}
+.anim.up_text.active {
+    transform: translateY(0%);
+    opacity: 1;
+}
+.anim.right {
+    transform: translateX(-30%);
+    transition: all 2s;
+    opacity: 0;
+}
+.anim.right.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
